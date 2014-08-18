@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email = 'pcguru419@yahoo.com'
   s.files = Dir.glob("{lib}/**/*")
   s.homepage = "http://github.com/jrcloud/knife_rax_cluster"
-  s.add_dependency "fog", "= 1.8.0"
+  s.add_dependency "fog", ">= 1.22"
   s.add_dependency "knife-rackspace"
 end
 
